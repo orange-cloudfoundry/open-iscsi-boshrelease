@@ -1,0 +1,21 @@
+name: open-iscsi
+version: "1"
+commit_hash: cc3508d
+uncommitted_changes: false
+jobs:
+- name: open-iscsi-pkg-install
+  version: 3bf1844c8e738600401d9614dce59ee52586d9e2149df77ba250b9894f7d2b43
+  fingerprint: 3bf1844c8e738600401d9614dce59ee52586d9e2149df77ba250b9894f7d2b43
+  sha1: sha256:67bd7dfb0fe8a067671f1a308070b01af8c88dd0edbecbb44853a386350fef93
+  packages:
+  - open-iscsi
+packages:
+- name: open-iscsi
+  version: 08c81435ac2cfa532d28e5c11ac5d759f5b4c14ba17a57f039b698e104ceb589
+  fingerprint: 08c81435ac2cfa532d28e5c11ac5d759f5b4c14ba17a57f039b698e104ceb589
+  sha1: sha256:dc2eb1b98505c9567ed971dbe0cdc9a78b771e6cfd0bd9aa7ccdb7afd68ac1ee
+  dependencies: []
+license:
+  version: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  fingerprint: eefa533b44473426f0d39cb7de4a5de1342863955201ca83ddaefe4a0c96d174
+  sha1: sha256:6ef0f6b59cdb236147855a3947e2f5dac2231eb398841d097701df254a56e351
