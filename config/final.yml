@@ -1,0 +1,5 @@
+final_name: open-iscsi
+blobstore:
+  provider: s3
+  options:
+    bucket_name: orange-open-iscsi-boshrelease

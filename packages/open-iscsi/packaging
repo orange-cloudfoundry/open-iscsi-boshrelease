@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -eux
+cp  ${BOSH_COMPILE_TARGET}/debs/*.deb ${BOSH_INSTALL_TARGET}/
+

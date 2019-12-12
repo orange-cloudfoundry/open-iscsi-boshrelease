@@ -1,0 +1,5 @@
+---
+name: open-iscsi-pkg-install
+packages: ["open-iscsi"]
+templates:
+  bin/pre-start.sh: bin/pre-start
