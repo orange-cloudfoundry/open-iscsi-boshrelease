@@ -1,4 +1,4 @@
 ---
 name: open-iscsi
 files:
-- debs/**/* 
+- open-iscsi/* 

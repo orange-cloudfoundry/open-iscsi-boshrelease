@@ -1,0 +1,30 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+
+
+- path: src 
+  contents:
+
+  - path: debs/open-iscsi
+    http:
+      # asset URL (required)
+    # url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-iscsi/open-iscsi_2.0.873+git0.3b4b4500-14ubuntu3.7_amd64.deb 
+      url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-iscsi/open-iscsi_2.1.8-1ubuntu1_amd64.deb
+      # verification checksum (optional)
+      sha256: "7c9764ac824b57de1d3399c1d8395479a989ce5e61d1b7c375af18d6dff0e18f"
+
+
+  - path: debs/libopeniscsiusr
+    http:
+      # asset URL (required)
+      url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-iscsi/libopeniscsiusr_2.1.8-1ubuntu1_amd64.deb
+      # verification checksum (optional)
+      sha256: "6ecd3c62786bc77367ea6bd4ef2ebe5f6a0220bbdd4e4dfa02c7778214dcae46"
+
+  - path: debs/libisns0
+    http:
+      # asset URL (required)
+      url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-isns/libisns0_0.101-0ubuntu2_amd64.deb 
+      # verification checksum (optional)
+      sha256: "bc08bcffa1eda9bc718c8578e739c73c95ecb9e82ce0555cd98ccf1ba996c86a"

@@ -1,5 +1,5 @@
 #!/bin/bash
 
 set -eux
-cp  ${BOSH_COMPILE_TARGET}/debs/*.deb ${BOSH_INSTALL_TARGET}/
+cp  ${BOSH_COMPILE_TARGET}/open-iscsi/*.deb ${BOSH_INSTALL_TARGET}/
 

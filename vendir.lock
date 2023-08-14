@@ -1,0 +1,11 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - http: {}
+    path: debs/open-iscsi
+  - http: {}
+    path: debs/libopeniscsiusr
+  - http: {}
+    path: debs/libisns0
+  path: src
+kind: LockConfig
