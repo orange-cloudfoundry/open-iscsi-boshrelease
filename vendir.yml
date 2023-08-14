@@ -9,6 +9,7 @@ directories:
   - path: debs/open-iscsi
     http:
       # asset URL (required)
-      url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-iscsi/open-iscsi_2.0.873+git0.3b4b4500-14ubuntu3.7_amd64.deb 
+    # url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-iscsi/open-iscsi_2.0.873+git0.3b4b4500-14ubuntu3.7_amd64.deb 
+      url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-iscsi/open-iscsi_2.1.8-1ubuntu1_amd64.deb
       # verification checksum (optional)
-      sha256: "ef6f289be617518a66378a3a0835be52107c71bedd90fbcaf1fe6889bf863cfa"
+      sha256: "7c9764ac824b57de1d3399c1d8395479a989ce5e61d1b7c375af18d6dff0e18f"
