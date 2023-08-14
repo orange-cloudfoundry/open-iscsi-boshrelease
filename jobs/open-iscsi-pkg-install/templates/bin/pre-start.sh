@@ -19,7 +19,7 @@ install_package() {
   done
 }
 
-install_package "${DEBS_PACKAGES:?}/open-iscsi_2.0.873+git0.3b4b4500-14ubuntu3.7_amd64.deb"
+install_package "${DEBS_PACKAGES:?}/open-iscsi.deb"
 sudo sed -i 's/node.session.timeo.replacement_timeout = 120/node.session.timeo.replacement_timeout = 400/g' /etc/iscsi/iscsid.conf
 service open-iscsi restart
 
