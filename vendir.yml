@@ -13,3 +13,18 @@ directories:
       url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-iscsi/open-iscsi_2.1.8-1ubuntu1_amd64.deb
       # verification checksum (optional)
       sha256: "7c9764ac824b57de1d3399c1d8395479a989ce5e61d1b7c375af18d6dff0e18f"
+
+
+  - path: debs/libopeniscsiusr
+    http:
+      # asset URL (required)
+      url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-iscsi/libopeniscsiusr_2.1.8-1ubuntu1_amd64.deb
+      # verification checksum (optional)
+      sha256: "6ecd3c62786bc77367ea6bd4ef2ebe5f6a0220bbdd4e4dfa02c7778214dcae46"
+
+  - path: debs/libisns
+    http:
+      # asset URL (required)
+      url: http://archive.ubuntu.com/ubuntu/pool/main/o/open-isns/libisns-dev_0.97-2build1_amd64.deb
+      # verification checksum (optional)
+      sha256: "557c88ef40174357ea8dc5f59d1686a1f0db7096e3757684551932189280298d"

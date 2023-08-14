@@ -19,6 +19,9 @@ install_package() {
   done
 }
 
+
+install_package "${DEBS_PACKAGES:?}/libopeniscsiusr.deb"
+install_package "${DEBS_PACKAGES:?}/libisns.deb"
 install_package "${DEBS_PACKAGES:?}/open-iscsi.deb"
 sudo sed -i 's/node.session.timeo.replacement_timeout = 120/node.session.timeo.replacement_timeout = 400/g' /etc/iscsi/iscsid.conf
 service open-iscsi restart
