@@ -1,3 +1,12 @@
-debs/open-iscsi_2.0.873+git0.3b4b4500-14ubuntu3.7_amd64.deb:
-  size: 335396
-  sha: sha256:ef6f289be617518a66378a3a0835be52107c71bedd90fbcaf1fe6889bf863cfa
+open-iscsi/libisns0.deb:
+  size: 96316
+  object_id: 642ee8ae-3a15-4f41-5ef0-14d585ed2d5c
+  sha: sha256:bc08bcffa1eda9bc718c8578e739c73c95ecb9e82ce0555cd98ccf1ba996c86a
+open-iscsi/libopeniscsiusr.deb:
+  size: 46706
+  object_id: 0ccfd060-922b-423e-4ef2-f45830f58877
+  sha: sha256:6ecd3c62786bc77367ea6bd4ef2ebe5f6a0220bbdd4e4dfa02c7778214dcae46
+open-iscsi/open-iscsi.deb:
+  size: 326800
+  object_id: 88c822fd-4ab2-446e-4300-7e405560837d
+  sha: sha256:7c9764ac824b57de1d3399c1d8395479a989ce5e61d1b7c375af18d6dff0e18f

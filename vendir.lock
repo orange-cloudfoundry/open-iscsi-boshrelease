@@ -3,5 +3,9 @@ directories:
 - contents:
   - http: {}
     path: debs/open-iscsi
+  - http: {}
+    path: debs/libopeniscsiusr
+  - http: {}
+    path: debs/libisns0
   path: src
 kind: LockConfig
